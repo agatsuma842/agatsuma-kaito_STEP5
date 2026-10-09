@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>テスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="backgroundButton">背景色を変更</button>
+
+    <div>
+        <input type="text" id="textInput">
+        <button id="displayButton">表示</button>
+        <button id="addButton">追加</button>
+    </div>
+
+    <p id="textOutput"></p>
+
+    <p>現在の行数: <span id="rowCount">0</span> 件</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>内容</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+        </tbody>
+    </table>
+
+    <script src="style.js"></script>
+</body>
+</html>
